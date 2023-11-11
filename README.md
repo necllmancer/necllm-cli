@@ -1,6 +1,6 @@
 # necllm-cli
 
-![image](https://github.com/necllmancer/necllm-cli/assets/96694331/95613491-7d81-47f0-90d1-52cdcdc1aa1a)
+![image](https://github.com/necllmancer/necllm-cli/assets/96694331/6f08cccf-0bb8-4e0e-aa87-6f9f00d9a89e)
 
 ## Overview
 'necllm-cli' is the command line interface (CLI) tool for the 'necllmancer' project. Designed to efficiently handle and automate tasks with multiple Large Language Models (LLMs), it functions like a process management system, allowing users to monitor LLM states, view logs, and intervene when necessary.
