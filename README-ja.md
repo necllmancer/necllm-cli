@@ -11,6 +11,17 @@
 ## 使用方法
 `necllm` コマンドを使用して、LLMインスタンスの状態を確認し、ログを表示し、インスタンスに指示を出すことができます。具体的なコマンドの使用例は後日提供されます。
 
+### コマンド
+
+- `necllm status`: 現在実行中のLLMインスタンスの状態を表示します。
+- `necllm logs [instance-name]`: 指定されたLLMインスタンスのログを表示します。
+- `necllm start [instance-name]`: 新しいLLMインスタンスを起動します。
+- `necllm stop [instance-name]`: 指定されたLLMインスタンスを停止します。
+- `necllm restart [instance-name]`: 指定されたLLMインスタンスを再起動します。
+- `necllm config [options]`: LLMインスタンスの設定を表示または変更します。
+- `necllm help`: コマンドの使い方やオプションについての情報を表示します。
+- `necllm info`: システム全体や特定のLLMインスタンスに関する詳細情報を表示します。
+
 ## インストール
 Golangの標準的なインストールプロセスに従って、`necllm-cli`をインストールできます。インストール方法の詳細は、リリース時に提供されます。
 
