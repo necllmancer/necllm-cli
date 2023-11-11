@@ -11,6 +11,17 @@ This tool is developed for users who want to efficiently manage multiple LLMs an
 ## Usage
 Use the `necllm` command to check the status of LLM instances, display logs, and issue instructions to instances. Specific command examples will be provided later.
 
+### Commands
+
+- `necllm status`: Displays the current status of running LLM instances.
+- `necllm logs [instance-name]`: Shows the logs for a specified LLM instance.
+- `necllm start [instance-name]`: Starts a new LLM instance.
+- `necllm stop [instance-name]`: Stops a specified LLM instance.
+- `necllm restart [instance-name]`: Restarts a specified LLM instance.
+- `necllm config [options]`: Displays or changes the settings for LLM instances.
+- `necllm help`: Provides information on how to use the commands and options.
+- `necllm info`: Shows detailed information about the entire system or a specific LLM instance.
+
 ## Installation
 Follow the standard Golang installation process to install 'necllm-cli'. Detailed installation instructions will be provided upon release.
 
